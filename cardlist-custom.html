@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>イジンデン セレクション（ヒエロスガモス／カルドロン／6弾 SR・PSR） 実寸印刷用</title>
+<style>
+:root {
+  --card-w: 63mm;
+  --card-h: 88mm;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+  background: #3a2f22;
+  color: #eee;
+}
+
+.toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #211102;
+  color: #fff;
+  padding: 12px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.toolbar h1 {
+  font-size: 15px;
+  margin: 0;
+  font-weight: bold;
+  flex: 1 1 auto;
+}
+
+.toolbar a.back {
+  color: #8fd0ff;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.toolbar button {
+  background: #c9a86a;
+  color: #211102;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.toolbar button:hover {
+  background: #e0c088;
+}
+
+.notes {
+  background: #2b2117;
+  color: #ddd;
+  font-size: 12px;
+  line-height: 1.6;
+  padding: 10px 16px;
+  border-bottom: 1px solid #4a3c2a;
+}
+
+.notes b { color: #ffd27a; }
+.notes a { color: #8fd0ff; }
+
+.sheet {
+  display: grid;
+  grid-template-columns: repeat(3, var(--card-w));
+  grid-auto-rows: var(--card-h);
+  column-gap: 2.5mm;
+  row-gap: 8mm;
+  justify-content: center;
+  padding: 8mm;
+  margin: 16px auto;
+  background: #fff;
+  width: 210mm;
+  min-height: 297mm;
+}
+
+.card {
+  width: var(--card-w);
+  height: var(--card-h);
+  position: relative;
+  outline: 0.3mm dashed #999;
+  outline-offset: 1mm;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.card .label {
+  margin: 2mm 0 0;
+  font-size: 8px;
+  color: #333;
+  text-align: center;
+  line-height: 1.3;
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  body { background: #fff; }
+
+  .toolbar, .notes { display: none; }
+
+  .sheet {
+    margin: 0;
+    box-shadow: none;
+    page-break-after: always;
+    break-after: page;
+  }
+
+  .sheet:last-child {
+    page-break-after: auto;
+    break-after: auto;
+  }
+
+  .card .label { display: none; }
+
+  .card { outline: 0.2mm dashed #ccc; }
+}
+</style>
+</head>
+<body>
+
+<div class="toolbar">
+  <h1>イジンデン セレクション（ヒエロスガモス／カルドロン／6弾 SR・PSR）（実寸印刷用・SAMPLE表記あり）</h1>
+  <a class="back" href="cardlist-print-index.html">← 一覧へ戻る</a>
+  <button onclick="window.print()">印刷する</button>
+</div>
+
+<div class="notes">
+  <b>収録カード：</b>ヒエロスガモス（2nd2-60〜64、全5種）／カルドロン（No.4-80）／第6弾ブースターパックの SR・PSR（2nd2-1〜10、2nd2-74〜75）。第6弾に「SSR」レアリティは存在しないため、SR・PSR のみを収録しています。<br>
+  <b>使い方：</b>
+  印刷ダイアログで「用紙サイズ：A4」「拡大縮小：100%（実際のサイズ）」「余白：なし」を選び、<b>「用紙に合わせて縮小」はオフ</b>にしてください。
+  各カードは実寸 63mm × 88mm で配置されています（点線は目安のカットガイドです）。<br>
+  カード画像は<a href="https://one-draw.jp/ijinden/cardlist.html" target="_blank" rel="noopener">公式サイト（one-draw.jp）</a>のサンプル画像をそのまま使用しており、「SAMPLE」の透かしが入った状態です。全18枚を2シートに収録しています。
+</div>
+
+    <section class="sheet">
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/006/card/06_001.png" alt="2nd2-1 ルートヴィヒ・ヴァン・ベートーヴェン" loading="lazy">
+        <p class="label">2nd2-1　ルートヴィヒ・ヴァン・ベートーヴェン</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/006/card/06_002.png" alt="2nd2-2 前田慶次" loading="lazy">
+        <p class="label">2nd2-2　前田慶次</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/006/card/06_003.png" alt="2nd2-3 空海" loading="lazy">
+        <p class="label">2nd2-3　空海</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/006/card/06_004.png" alt="2nd2-4 玄奘" loading="lazy">
+        <p class="label">2nd2-4　玄奘</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/006/card/06_005.png" alt="2nd2-5 司馬遷" loading="lazy">
+        <p class="label">2nd2-5　司馬遷</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/006/card/06_006.png" alt="2nd2-6 徳川家康" loading="lazy">
+        <p class="label">2nd2-6　徳川家康</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/006/card/06_007.png" alt="2nd2-7 ジャンヌ・ダルク" loading="lazy">
+        <p class="label">2nd2-7　ジャンヌ・ダルク</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/006/card/06_008.png" alt="2nd2-8 マルコ＝ポーロ" loading="lazy">
+        <p class="label">2nd2-8　マルコ＝ポーロ</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/006/card/06_009.png" alt="2nd2-9 タマル王" loading="lazy">
+        <p class="label">2nd2-9　タマル王</p>
+      </div>
+    </section>
+    <section class="sheet">
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/006/card/06_010.png" alt="2nd2-10 安倍晴明" loading="lazy">
+        <p class="label">2nd2-10　安倍晴明</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/006/card/06_060.png" alt="2nd2-60 ヒエロスガモス" loading="lazy">
+        <p class="label">2nd2-60　ヒエロスガモス</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/006/card/06_061.png" alt="2nd2-61 ヒエロスガモス" loading="lazy">
+        <p class="label">2nd2-61　ヒエロスガモス</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/006/card/06_062.png" alt="2nd2-62 ヒエロスガモス" loading="lazy">
+        <p class="label">2nd2-62　ヒエロスガモス</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/006/card/06_063.png" alt="2nd2-63 ヒエロスガモス" loading="lazy">
+        <p class="label">2nd2-63　ヒエロスガモス</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/006/card/06_064.png" alt="2nd2-64 ヒエロスガモス" loading="lazy">
+        <p class="label">2nd2-64　ヒエロスガモス</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/006/card/06_074.png" alt="2nd2-74 玄奘" loading="lazy">
+        <p class="label">2nd2-74　玄奘</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/006/card/06_075.png" alt="2nd2-75 安倍晴明" loading="lazy">
+        <p class="label">2nd2-75　安倍晴明</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_080.png" alt="No.4-80 カルドロン" loading="lazy">
+        <p class="label">No.4-80　カルドロン</p>
+      </div>
+    </section>
+
+</body>
+</html>
