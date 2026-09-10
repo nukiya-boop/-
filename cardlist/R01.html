@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>イジンデン 伝説の武将デッキ 実寸印刷用カードリスト</title>
+<style>
+:root {
+  --card-w: 63mm;
+  --card-h: 88mm;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+  background: #3a2f22;
+  color: #eee;
+}
+
+.toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #211102;
+  color: #fff;
+  padding: 12px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.toolbar h1 {
+  font-size: 15px;
+  margin: 0;
+  font-weight: bold;
+  flex: 1 1 auto;
+}
+
+.toolbar a.back {
+  color: #8fd0ff;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.toolbar button {
+  background: #c9a86a;
+  color: #211102;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.toolbar button:hover {
+  background: #e0c088;
+}
+
+.notes {
+  background: #2b2117;
+  color: #ddd;
+  font-size: 12px;
+  line-height: 1.6;
+  padding: 10px 16px;
+  border-bottom: 1px solid #4a3c2a;
+}
+
+.notes b { color: #ffd27a; }
+.notes a { color: #8fd0ff; }
+
+.sheet {
+  display: grid;
+  grid-template-columns: repeat(3, var(--card-w));
+  grid-auto-rows: var(--card-h);
+  column-gap: 2.5mm;
+  row-gap: 8mm;
+  justify-content: center;
+  padding: 8mm;
+  margin: 16px auto;
+  background: #fff;
+  width: 210mm;
+  min-height: 297mm;
+}
+
+.card {
+  width: var(--card-w);
+  height: var(--card-h);
+  position: relative;
+  outline: 0.3mm dashed #999;
+  outline-offset: 1mm;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.card .label {
+  margin: 2mm 0 0;
+  font-size: 8px;
+  color: #333;
+  text-align: center;
+  line-height: 1.3;
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  body { background: #fff; }
+
+  .toolbar, .notes { display: none; }
+
+  .sheet {
+    margin: 0;
+    box-shadow: none;
+    page-break-after: always;
+    break-after: page;
+  }
+
+  .sheet:last-child {
+    page-break-after: auto;
+    break-after: auto;
+  }
+
+  .card .label { display: none; }
+
+  .card { outline: 0.2mm dashed #ccc; }
+}
+</style>
+</head>
+<body>
+
+<div class="toolbar">
+  <h1>イジンデン 伝説の武将デッキ（R01）カードリスト（実寸印刷用・SAMPLE表記あり）</h1>
+  <a class="back" href="../cardlist-print-index.html">← 一覧へ戻る</a>
+  <button onclick="window.print()">印刷する</button>
+</div>
+
+<div class="notes">
+  <b>使い方：</b>
+  印刷ダイアログで「用紙サイズ：A4」「拡大縮小：100%（実際のサイズ）」「余白：なし」を選び、<b>「用紙に合わせて縮小」はオフ</b>にしてください。
+  各カードは実寸 63mm × 88mm で配置されています（点線は目安のカットガイドです）。<br>
+  カード画像は<a href="https://one-draw.jp/ijinden/cardlist/R01/cardlist_img.html" target="_blank" rel="noopener">公式サイト（one-draw.jp）</a>のサンプル画像をそのまま使用しており、「SAMPLE」の透かしが入った状態です。1シート（A4 1枚）につき9枚、全13枚を2シートに収録しています。
+</div>
+
+    <section class="sheet">
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/R01/card/R_001.png" alt="No.R-1 上杉謙信" loading="lazy">
+        <p class="label">No.R-1　上杉謙信</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/R01/card/R_002.png" alt="No.R-2 源義経" loading="lazy">
+        <p class="label">No.R-2　源義経</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/R01/card/R_003.png" alt="No.R-3 武田勝頼" loading="lazy">
+        <p class="label">No.R-3　武田勝頼</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/R01/card/R_004.png" alt="No.R-4 ヴラド・ツェペシュ" loading="lazy">
+        <p class="label">No.R-4　ヴラド・ツェペシュ</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/R01/card/R_005.png" alt="No.R-5 坂上田村麻呂" loading="lazy">
+        <p class="label">No.R-5　坂上田村麻呂</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/R01/card/R_006.png" alt="No.R-6 楠木正成" loading="lazy">
+        <p class="label">No.R-6　楠木正成</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/R01/card/R_007.png" alt="No.R-7 ジェームズ・バトラー・ヒコック" loading="lazy">
+        <p class="label">No.R-7　ジェームズ・バトラー・ヒコック</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/R01/card/R_008.png" alt="No.R-8 アレクサンドロス大王" loading="lazy">
+        <p class="label">No.R-8　アレクサンドロス大王</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/R01/card/R_009.png" alt="No.R-9 神剣眠る氏社" loading="lazy">
+        <p class="label">No.R-9　神剣眠る氏社</p>
+      </div>
+    </section>
+    <section class="sheet">
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/R01/card/R_010.png" alt="No.R-10 連なる天守閣" loading="lazy">
+        <p class="label">No.R-10　連なる天守閣</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/R01/card/R_011.png" alt="No.R-11 ロイヤリティ" loading="lazy">
+        <p class="label">No.R-11　ロイヤリティ</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/R01/card/R_012.png" alt="No.R-12 デスペラード" loading="lazy">
+        <p class="label">No.R-12　デスペラード</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/R01/card/R_013.png" alt="No.R-13 レッドストーン" loading="lazy">
+        <p class="label">No.R-13　レッドストーン</p>
+      </div>
+    </section>
+
+</body>
+</html>

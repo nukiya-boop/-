@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>イジンデン 第4弾ブースターパック 実寸印刷用カードリスト</title>
+<style>
+:root {
+  --card-w: 63mm;
+  --card-h: 88mm;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+  background: #3a2f22;
+  color: #eee;
+}
+
+.toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #211102;
+  color: #fff;
+  padding: 12px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.toolbar h1 {
+  font-size: 15px;
+  margin: 0;
+  font-weight: bold;
+  flex: 1 1 auto;
+}
+
+.toolbar a.back {
+  color: #8fd0ff;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.toolbar button {
+  background: #c9a86a;
+  color: #211102;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.toolbar button:hover {
+  background: #e0c088;
+}
+
+.notes {
+  background: #2b2117;
+  color: #ddd;
+  font-size: 12px;
+  line-height: 1.6;
+  padding: 10px 16px;
+  border-bottom: 1px solid #4a3c2a;
+}
+
+.notes b { color: #ffd27a; }
+.notes a { color: #8fd0ff; }
+
+.sheet {
+  display: grid;
+  grid-template-columns: repeat(3, var(--card-w));
+  grid-auto-rows: var(--card-h);
+  column-gap: 2.5mm;
+  row-gap: 8mm;
+  justify-content: center;
+  padding: 8mm;
+  margin: 16px auto;
+  background: #fff;
+  width: 210mm;
+  min-height: 297mm;
+}
+
+.card {
+  width: var(--card-w);
+  height: var(--card-h);
+  position: relative;
+  outline: 0.3mm dashed #999;
+  outline-offset: 1mm;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.card .label {
+  margin: 2mm 0 0;
+  font-size: 8px;
+  color: #333;
+  text-align: center;
+  line-height: 1.3;
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  body { background: #fff; }
+
+  .toolbar, .notes { display: none; }
+
+  .sheet {
+    margin: 0;
+    box-shadow: none;
+    page-break-after: always;
+    break-after: page;
+  }
+
+  .sheet:last-child {
+    page-break-after: auto;
+    break-after: auto;
+  }
+
+  .card .label { display: none; }
+
+  .card { outline: 0.2mm dashed #ccc; }
+}
+</style>
+</head>
+<body>
+
+<div class="toolbar">
+  <h1>イジンデン 第4弾ブースターパック（004）カードリスト（実寸印刷用・SAMPLE表記あり）</h1>
+  <a class="back" href="../cardlist-print-index.html">← 一覧へ戻る</a>
+  <button onclick="window.print()">印刷する</button>
+</div>
+
+<div class="notes">
+  <b>使い方：</b>
+  印刷ダイアログで「用紙サイズ：A4」「拡大縮小：100%（実際のサイズ）」「余白：なし」を選び、<b>「用紙に合わせて縮小」はオフ</b>にしてください。
+  各カードは実寸 63mm × 88mm で配置されています（点線は目安のカットガイドです）。<br>
+  カード画像は<a href="https://one-draw.jp/ijinden/cardlist/004/cardlist_img.html" target="_blank" rel="noopener">公式サイト（one-draw.jp）</a>のサンプル画像をそのまま使用しており、「SAMPLE」の透かしが入った状態です。1シート（A4 1枚）につき9枚、全81枚を9シートに収録しています。
+</div>
+
+    <section class="sheet">
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_001.png" alt="No.4-1 西郷隆盛" loading="lazy">
+        <p class="label">No.4-1　西郷隆盛</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_002.png" alt="No.4-2 リチャード・アークライト" loading="lazy">
+        <p class="label">No.4-2　リチャード・アークライト</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_003.png" alt="No.4-3 アンナ・パブロワ" loading="lazy">
+        <p class="label">No.4-3　アンナ・パブロワ</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_004.png" alt="No.4-4 ルイ14世" loading="lazy">
+        <p class="label">No.4-4　ルイ14世</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_005.png" alt="No.4-5 藤原不比等" loading="lazy">
+        <p class="label">No.4-5　藤原不比等</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_006.png" alt="No.4-6 伊能忠敬" loading="lazy">
+        <p class="label">No.4-6　伊能忠敬</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_007.png" alt="No.4-7 アリエノール・ダキテーヌ" loading="lazy">
+        <p class="label">No.4-7　アリエノール・ダキテーヌ</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_008.png" alt="No.4-8 アルキメデス" loading="lazy">
+        <p class="label">No.4-8　アルキメデス</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_009.png" alt="No.4-9 レオニダス三" loading="lazy">
+        <p class="label">No.4-9　レオニダス三</p>
+      </div>
+    </section>
+    <section class="sheet">
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_010.png" alt="No.4-10 カール大帝" loading="lazy">
+        <p class="label">No.4-10　カール大帝</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_011.png" alt="No.4-11 島津斉彬" loading="lazy">
+        <p class="label">No.4-11　島津斉彬</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_012.png" alt="No.4-12 島津久光" loading="lazy">
+        <p class="label">No.4-12　島津久光</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_013.png" alt="No.4-13 大久保利通" loading="lazy">
+        <p class="label">No.4-13　大久保利通</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_014.png" alt="No.4-14 ジェームズ・ハーグリーブズ" loading="lazy">
+        <p class="label">No.4-14　ジェームズ・ハーグリーブズ</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_015.png" alt="No.4-15 ねね" loading="lazy">
+        <p class="label">No.4-15　ねね</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_016.png" alt="No.4-16 源為朝" loading="lazy">
+        <p class="label">No.4-16　源為朝</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_017.png" alt="No.4-17 久坂玄瑞" loading="lazy">
+        <p class="label">No.4-17　久坂玄瑞</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_018.png" alt="No.4-18 ポンパドゥール夫人" loading="lazy">
+        <p class="label">No.4-18　ポンパドゥール夫人</p>
+      </div>
+    </section>
+    <section class="sheet">
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_019.png" alt="No.4-19 エドモンド・カートライト" loading="lazy">
+        <p class="label">No.4-19　エドモンド・カートライト</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_020.png" alt="No.4-20 クロード・アシル・ドビュッシー" loading="lazy">
+        <p class="label">No.4-20　クロード・アシル・ドビュッシー</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_021.png" alt="No.4-21 フレデリック・フランソワ・ショパン" loading="lazy">
+        <p class="label">No.4-21　フレデリック・フランソワ・ショパン</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_022.png" alt="No.4-22 ピョートル・イリイチ・チャイコフスキー" loading="lazy">
+        <p class="label">No.4-22　ピョートル・イリイチ・チャイコフスキー</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_023.png" alt="No.4-23 岩倉具視" loading="lazy">
+        <p class="label">No.4-23　岩倉具視</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_024.png" alt="No.4-24 クララ・ヨゼフィーネ・シューマン" loading="lazy">
+        <p class="label">No.4-24　クララ・ヨゼフィーネ・シューマン</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_025.png" alt="No.4-25 間宮林蔵" loading="lazy">
+        <p class="label">No.4-25　間宮林蔵</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_026.png" alt="No.4-26 徳川斉昭" loading="lazy">
+        <p class="label">No.4-26　徳川斉昭</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_027.png" alt="No.4-27 鈴木春信" loading="lazy">
+        <p class="label">No.4-27　鈴木春信</p>
+      </div>
+    </section>
+    <section class="sheet">
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_028.png" alt="No.4-28 歌川広重" loading="lazy">
+        <p class="label">No.4-28　歌川広重</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_029.png" alt="No.4-29 松平容保" loading="lazy">
+        <p class="label">No.4-29　松平容保</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_030.png" alt="No.4-30 新島八重" loading="lazy">
+        <p class="label">No.4-30　新島八重</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_031.png" alt="No.4-31 尾形光琳" loading="lazy">
+        <p class="label">No.4-31　尾形光琳</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_032.png" alt="No.4-32 滝沢馬琴" loading="lazy">
+        <p class="label">No.4-32　滝沢馬琴</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_033.png" alt="No.4-33 メアリー・ゴドウィン・シェリー" loading="lazy">
+        <p class="label">No.4-33　メアリー・ゴドウィン・シェリー</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_034.png" alt="No.4-34 西郷頼母" loading="lazy">
+        <p class="label">No.4-34　西郷頼母</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_035.png" alt="No.4-35 沖田総司" loading="lazy">
+        <p class="label">No.4-35　沖田総司</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_036.png" alt="No.4-36 ジョバンニ＝ディ＝メディチ" loading="lazy">
+        <p class="label">No.4-36　ジョバンニ＝ディ＝メディチ</p>
+      </div>
+    </section>
+    <section class="sheet">
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_037.png" alt="No.4-37 フローレンス・ナイチンゲール" loading="lazy">
+        <p class="label">No.4-37　フローレンス・ナイチンゲール</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_038.png" alt="No.4-38 ミシェル・ノストラダムス" loading="lazy">
+        <p class="label">No.4-38　ミシェル・ノストラダムス</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_039.png" alt="No.4-39 ヴィルヘルム・コンラート・レントゲン" loading="lazy">
+        <p class="label">No.4-39　ヴィルヘルム・コンラート・レントゲン</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_040.png" alt="No.4-40 榎本武揚" loading="lazy">
+        <p class="label">No.4-40　榎本武揚</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_041.png" alt="No.4-41 無礼打" loading="lazy">
+        <p class="label">No.4-41　無礼打</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_042.png" alt="No.4-42 紡績工場" loading="lazy">
+        <p class="label">No.4-42　紡績工場</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_043.png" alt="No.4-43 火と氷の大地" loading="lazy">
+        <p class="label">No.4-43　火と氷の大地</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_044.png" alt="No.4-44 落日の王宮" loading="lazy">
+        <p class="label">No.4-44　落日の王宮</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_045.png" alt="No.4-45 遣外使節団" loading="lazy">
+        <p class="label">No.4-45　遣外使節団</p>
+      </div>
+    </section>
+    <section class="sheet">
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_046.png" alt="No.4-46 大日本沿海輿地全図" loading="lazy">
+        <p class="label">No.4-46　大日本沿海輿地全図</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_047.png" alt="No.4-47 マザーグース" loading="lazy">
+        <p class="label">No.4-47　マザーグース</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_048.png" alt="No.4-48 遠征軍" loading="lazy">
+        <p class="label">No.4-48　遠征軍</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_049.png" alt="No.4-49 蝦夷共和国" loading="lazy">
+        <p class="label">No.4-49　蝦夷共和国</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_050.png" alt="No.4-50 喀血の流行り病" loading="lazy">
+        <p class="label">No.4-50　喀血の流行り病</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_051.png" alt="No.4-51 カーバナイズ" loading="lazy">
+        <p class="label">No.4-51　カーバナイズ</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_052.png" alt="No.4-52 ソーラーフレア" loading="lazy">
+        <p class="label">No.4-52　ソーラーフレア</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_053.png" alt="No.4-53 フール" loading="lazy">
+        <p class="label">No.4-53　フール</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_054.png" alt="No.4-54 ドロレス" loading="lazy">
+        <p class="label">No.4-54　ドロレス</p>
+      </div>
+    </section>
+    <section class="sheet">
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_055.png" alt="No.4-55 デュエル" loading="lazy">
+        <p class="label">No.4-55　デュエル</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_056.png" alt="No.4-56 サーベイング" loading="lazy">
+        <p class="label">No.4-56　サーベイング</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_057.png" alt="No.4-57 ソレイユ" loading="lazy">
+        <p class="label">No.4-57　ソレイユ</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_058.png" alt="No.4-58 ルーナ" loading="lazy">
+        <p class="label">No.4-58　ルーナ</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_059.png" alt="No.4-59 リユニオン" loading="lazy">
+        <p class="label">No.4-59　リユニオン</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_060.png" alt="No.4-60 ドッペルゲンガー" loading="lazy">
+        <p class="label">No.4-60　ドッペルゲンガー</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_061.png" alt="No.4-61 ソリッドビジョンα" loading="lazy">
+        <p class="label">No.4-61　ソリッドビジョンα</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_062.png" alt="No.4-62 ソリッドビジョンδ" loading="lazy">
+        <p class="label">No.4-62　ソリッドビジョンδ</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_063.png" alt="No.4-63 ソリッドビジョンΩ" loading="lazy">
+        <p class="label">No.4-63　ソリッドビジョンΩ</p>
+      </div>
+    </section>
+    <section class="sheet">
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_064.png" alt="No.4-64 ソリッドビジョンβ" loading="lazy">
+        <p class="label">No.4-64　ソリッドビジョンβ</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_065.png" alt="No.4-65 ソリッドビジョンγ" loading="lazy">
+        <p class="label">No.4-65　ソリッドビジョンγ</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_066.png" alt="No.4-66 遁甲式烈火" loading="lazy">
+        <p class="label">No.4-66　遁甲式烈火</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_067.png" alt="No.4-67 レッドサークル" loading="lazy">
+        <p class="label">No.4-67　レッドサークル</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_068.png" alt="No.4-68 遁甲式水鏡" loading="lazy">
+        <p class="label">No.4-68　遁甲式水鏡</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_069.png" alt="No.4-69 ブルーサークル" loading="lazy">
+        <p class="label">No.4-69　ブルーサークル</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_070.png" alt="No.4-70 遁甲式木蓮" loading="lazy">
+        <p class="label">No.4-70　遁甲式木蓮</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_071.png" alt="No.4-71 グリーンサークル" loading="lazy">
+        <p class="label">No.4-71　グリーンサークル</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_072.png" alt="No.4-72 ラ・コロール" loading="lazy">
+        <p class="label">No.4-72　ラ・コロール</p>
+      </div>
+    </section>
+    <section class="sheet">
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_073.png" alt="No.4-73 イエローサークル" loading="lazy">
+        <p class="label">No.4-73　イエローサークル</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_074.png" alt="No.4-74 ディ・クローネ" loading="lazy">
+        <p class="label">No.4-74　ディ・クローネ</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_075.png" alt="No.4-75 パープルサークル" loading="lazy">
+        <p class="label">No.4-75　パープルサークル</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_076.png" alt="No.4-76 トランスポーター" loading="lazy">
+        <p class="label">No.4-76　トランスポーター</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_077.png" alt="No.4-77 アセイミー" loading="lazy">
+        <p class="label">No.4-77　アセイミー</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_078.png" alt="No.4-78 ホプロン" loading="lazy">
+        <p class="label">No.4-78　ホプロン</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_079.png" alt="No.4-79 ピクシーダスト" loading="lazy">
+        <p class="label">No.4-79　ピクシーダスト</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_080.png" alt="No.4-80 カルドロン" loading="lazy">
+        <p class="label">No.4-80　カルドロン</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/004/card/04_081.png" alt="No.4-81 カール大帝" loading="lazy">
+        <p class="label">No.4-81　カール大帝</p>
+      </div>
+    </section>
+
+</body>
+</html>

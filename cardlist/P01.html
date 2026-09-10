@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>イジンデン 発展する医学デッキ 実寸印刷用カードリスト</title>
+<style>
+:root {
+  --card-w: 63mm;
+  --card-h: 88mm;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+  background: #3a2f22;
+  color: #eee;
+}
+
+.toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #211102;
+  color: #fff;
+  padding: 12px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.toolbar h1 {
+  font-size: 15px;
+  margin: 0;
+  font-weight: bold;
+  flex: 1 1 auto;
+}
+
+.toolbar a.back {
+  color: #8fd0ff;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.toolbar button {
+  background: #c9a86a;
+  color: #211102;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.toolbar button:hover {
+  background: #e0c088;
+}
+
+.notes {
+  background: #2b2117;
+  color: #ddd;
+  font-size: 12px;
+  line-height: 1.6;
+  padding: 10px 16px;
+  border-bottom: 1px solid #4a3c2a;
+}
+
+.notes b { color: #ffd27a; }
+.notes a { color: #8fd0ff; }
+
+.sheet {
+  display: grid;
+  grid-template-columns: repeat(3, var(--card-w));
+  grid-auto-rows: var(--card-h);
+  column-gap: 2.5mm;
+  row-gap: 8mm;
+  justify-content: center;
+  padding: 8mm;
+  margin: 16px auto;
+  background: #fff;
+  width: 210mm;
+  min-height: 297mm;
+}
+
+.card {
+  width: var(--card-w);
+  height: var(--card-h);
+  position: relative;
+  outline: 0.3mm dashed #999;
+  outline-offset: 1mm;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.card .label {
+  margin: 2mm 0 0;
+  font-size: 8px;
+  color: #333;
+  text-align: center;
+  line-height: 1.3;
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  body { background: #fff; }
+
+  .toolbar, .notes { display: none; }
+
+  .sheet {
+    margin: 0;
+    box-shadow: none;
+    page-break-after: always;
+    break-after: page;
+  }
+
+  .sheet:last-child {
+    page-break-after: auto;
+    break-after: auto;
+  }
+
+  .card .label { display: none; }
+
+  .card { outline: 0.2mm dashed #ccc; }
+}
+</style>
+</head>
+<body>
+
+<div class="toolbar">
+  <h1>イジンデン 発展する医学デッキ（P01）カードリスト（実寸印刷用・SAMPLE表記あり）</h1>
+  <a class="back" href="../cardlist-print-index.html">← 一覧へ戻る</a>
+  <button onclick="window.print()">印刷する</button>
+</div>
+
+<div class="notes">
+  <b>使い方：</b>
+  印刷ダイアログで「用紙サイズ：A4」「拡大縮小：100%（実際のサイズ）」「余白：なし」を選び、<b>「用紙に合わせて縮小」はオフ</b>にしてください。
+  各カードは実寸 63mm × 88mm で配置されています（点線は目安のカットガイドです）。<br>
+  カード画像は<a href="https://one-draw.jp/ijinden/cardlist/P01/cardlist_img.html" target="_blank" rel="noopener">公式サイト（one-draw.jp）</a>のサンプル画像をそのまま使用しており、「SAMPLE」の透かしが入った状態です。1シート（A4 1枚）につき9枚、全16枚を2シートに収録しています。
+</div>
+
+    <section class="sheet">
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/P01/card/03_P_001.png" alt="No.3-P-1 マリ・キュリー" loading="lazy">
+        <p class="label">No.3-P-1　マリ・キュリー</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/P01/card/03_P_002.png" alt="No.3-P-2 篤姫" loading="lazy">
+        <p class="label">No.3-P-2　篤姫</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/P01/card/03_P_003.png" alt="No.3-P-3 李成桂" loading="lazy">
+        <p class="label">No.3-P-3　李成桂</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/P01/card/03_P_004.png" alt="No.3-P-4 杉田玄白" loading="lazy">
+        <p class="label">No.3-P-4　杉田玄白</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/P01/card/03_P_005.png" alt="No.3-P-5 渡辺崋山" loading="lazy">
+        <p class="label">No.3-P-5　渡辺崋山</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/P01/card/03_P_006.png" alt="No.3-P-6 緒方洪庵" loading="lazy">
+        <p class="label">No.3-P-6　緒方洪庵</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/P01/card/03_P_007.png" alt="No.3-P-7 岡田以蔵" loading="lazy">
+        <p class="label">No.3-P-7　岡田以蔵</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/P01/card/03_P_008.png" alt="No.3-P-8 クララ・バートン" loading="lazy">
+        <p class="label">No.3-P-8　クララ・バートン</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/P01/card/03_P_009.png" alt="No.3-P-9 虎狼痢" loading="lazy">
+        <p class="label">No.3-P-9　虎狼痢</p>
+      </div>
+    </section>
+    <section class="sheet">
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/P01/card/03_P_010.png" alt="No.3-P-10 浪士集う長屋" loading="lazy">
+        <p class="label">No.3-P-10　浪士集う長屋</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/P01/card/03_P_011.png" alt="No.3-P-11 スピリットアウェイ" loading="lazy">
+        <p class="label">No.3-P-11　スピリットアウェイ</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/P01/card/03_P_012.png" alt="No.3-P-12 タイムディレイション" loading="lazy">
+        <p class="label">No.3-P-12　タイムディレイション</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/P01/card/03_P_013.png" alt="No.3-P-13 ハンドミラー" loading="lazy">
+        <p class="label">No.3-P-13　ハンドミラー</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/P01/card/03_P_014.png" alt="No.3-P-14 ブラックブレイド" loading="lazy">
+        <p class="label">No.3-P-14　ブラックブレイド</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/P01/card/03_P_015.png" alt="No.3-P-15 パープルオーブ" loading="lazy">
+        <p class="label">No.3-P-15　パープルオーブ</p>
+      </div>
+      <div class="card">
+        <img src="https://one-draw.jp/ijinden/cardlist/P01/card/03_P_016.png" alt="No.3-P-16 パープルストーン" loading="lazy">
+        <p class="label">No.3-P-16　パープルストーン</p>
+      </div>
+    </section>
+
+</body>
+</html>
